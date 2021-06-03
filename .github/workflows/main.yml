@@ -1,0 +1,28 @@
+
+name: Build front page
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2.3.4
+        
+      # Generate the readme
+      - run: |
+         # make file runnable, might not be necessary
+         chmod +x "${GITHUB_WORKSPACE}/generate.sh"
+
+         # run script
+         ${GITHUB_WORKSPACE}/generate.sh
+         
+      # Commit the readme
+      - uses: stefanzweifel/git-auto-commit-action@v4.11.0
+        with:
+          commit_message: "New frontpage generated"

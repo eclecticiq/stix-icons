@@ -1,0 +1,87 @@
+# STIX  Icons
+
+**stix-icons** is a collection of colourful and clean icons for use in software, training and marketing material to visualize cyber threats according to the [STIX](https://oasis-open.github.io/cti-documentation/stix/intro) language for intelligence exchange, defined by [OASIS Cyber Threat Intelligence (CTI) TC](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cti)
+
+This collection is made available by [EclecticIQ](https://www.eclecticiq.com) to stimulate the widespread adoption of [STIX](https://oasis-open.github.io/cti-documentation/stix/intro).
+
+
+<p align="center">
+<img src="./images/logo_stix.svg" width="30%">
+</p>
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+## Contributing
+
+Feel free to add/create your own icons for custom STIX objects! It would be awesome if you provide merge requests for these additional icons so that everyone using this library has the ability to use the proper icons for your custom objects.
+
+## Content
+
+### Formats
+
+The icons are provided in three versions: color, black, and white. On top of that there are two variations provided: with and without a 'circle' behind the icons.
+Within the folders below you can choose the icons that suite your needs.
+
+<<<<<<< HEAD
+* **[colorCMYK](.colorCMYK)**: PDF files in CYMK format
+* **[colorRGB](.colorRGB)**: colorRGB Icons
+  * **[Normal](.colorRGB/normal)**: 
+    * **[PDF](.colorRGB/normal/PDF)**: Normal icons in PDF format
+    * **[SVG](.colorRGB/normal/SVG)**: Normal icons in SVG format
+    * **[PNG](.colorRGB/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
+  * **[Round](.colorRGB/round)**: 
+    * **[PDF](.colorRGB/round/PDF)**: Round icons in PDF format
+    * **[SVG](.colorRGB/round/SVG)**: Round icons in SVG format
+    * **[PNG](.colorRGB/round/PDF)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
+* **[White](.White)**: White  Icons
+  * **[Normal](.White/normal)**: 
+    * **[PDF](.White/normal/PDF)**: Normal icons in PDF format
+    * **[SVG](.White/normal/SVG)**: Normal icons in SVG format
+    * **[PNG](.White/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
+  * **[Round](.White/round)**: 
+    * **[PDF](.White/round/PDF)**: Round icons in PDF format
+    * **[SVG](.White/round/SVG)**: Round icons in SVG format
+    * **[PNG](.White/round/PDF)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
+* **[Black](.Black)**: Black Icons
+  * **[Normal](.Black/normal)**: 
+    * **[PDF](.Black/normal/PDF)**: Normal icons in PDF format
+    * **[SVG](.Black/normal/SVG)**: Normal icons in SVG format
+    * **[PNG](.Black/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
+  * **[Round](.Black/round)**: 
+    * **[PDF](.Black/round/PDF)**: Round icons in PDF format
+    * **[SVG](.Black/round/SVG)**: Round icons in SVG format
+    * **[PNG](.Black/round/PDF)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
+=======
+* **[colorCMYK](colorCMYK)**: PDF files in CYMK format
+* **[colorRGB](colorRGB)**: colorRGB Icons
+  * **[Normal](colorRGB/normal)**: 
+    * **[PDF](colorRGB/normal/PDF)**: Normal icons in PDF format
+    * **[SVG](colorRGB/normal/SVG)**: Normal icons in SVG format
+    * **[PNG](colorRGB/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
+  * **[Round](colorRGB/round)**: 
+    * **[PDF](colorRGB/round/PDF)**: Round icons in PDF format
+    * **[SVG](colorRGB/round/SVG)**: Round icons in SVG format
+    * **[PNG](colorRGB/round/PNG)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
+* **[White](White)**: White  Icons
+  * **[Normal](White/normal)**: 
+    * **[PDF](White/normal/PDF)**: Normal icons in PDF format
+    * **[SVG](White/normal/SVG)**: Normal icons in SVG format
+    * **[PNG](White/normal/PNG)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
+  * **[Round](White/round)**: 
+    * **[PDF](White/round/PDF)**: Round icons in PDF format
+    * **[SVG](White/round/SVG)**: Round icons in SVG format
+    * **[PNG](White/round/PNG)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
+* **[Black](Black)**: Black Icons
+  * **[Normal](Black/normal)**: 
+    * **[PDF](Black/normal/PDF)**: Normal icons in PDF format
+    * **[SVG](Black/normal/SVG)**: Normal icons in SVG format
+    * **[PNG](Black/normal/PNG)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
+  * **[Round](Black/round)**: 
+    * **[PDF](Black/round/PDF)**: Round icons in PDF format
+    * **[SVG](Black/round/SVG)**: Round icons in SVG format
+    * **[PNG](Black/round/PNG)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
+>>>>>>> c0646ca... fixed PNG folders
+
+
