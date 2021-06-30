@@ -24,42 +24,12 @@ Feel free to add/create your own icons for custom STIX objects! It would be awes
 The icons are provided in three versions: color, black, and white. On top of that there are two variations provided: with and without a 'circle' behind the icons.
 Within the folders below you can choose the icons that suite your needs.
 
-<<<<<<< HEAD
-* **[colorCMYK](.colorCMYK)**: PDF files in CYMK format
-* **[colorRGB](.colorRGB)**: colorRGB Icons
-  * **[Normal](.colorRGB/normal)**: 
-    * **[PDF](.colorRGB/normal/PDF)**: Normal icons in PDF format
-    * **[SVG](.colorRGB/normal/SVG)**: Normal icons in SVG format
-    * **[PNG](.colorRGB/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
-  * **[Round](.colorRGB/round)**: 
-    * **[PDF](.colorRGB/round/PDF)**: Round icons in PDF format
-    * **[SVG](.colorRGB/round/SVG)**: Round icons in SVG format
-    * **[PNG](.colorRGB/round/PDF)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
-* **[White](.White)**: White  Icons
-  * **[Normal](.White/normal)**: 
-    * **[PDF](.White/normal/PDF)**: Normal icons in PDF format
-    * **[SVG](.White/normal/SVG)**: Normal icons in SVG format
-    * **[PNG](.White/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
-  * **[Round](.White/round)**: 
-    * **[PDF](.White/round/PDF)**: Round icons in PDF format
-    * **[SVG](.White/round/SVG)**: Round icons in SVG format
-    * **[PNG](.White/round/PDF)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
-* **[Black](.Black)**: Black Icons
-  * **[Normal](.Black/normal)**: 
-    * **[PDF](.Black/normal/PDF)**: Normal icons in PDF format
-    * **[SVG](.Black/normal/SVG)**: Normal icons in SVG format
-    * **[PNG](.Black/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
-  * **[Round](.Black/round)**: 
-    * **[PDF](.Black/round/PDF)**: Round icons in PDF format
-    * **[SVG](.Black/round/SVG)**: Round icons in SVG format
-    * **[PNG](.Black/round/PDF)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
-=======
 * **[colorCMYK](colorCMYK)**: PDF files in CYMK format
 * **[colorRGB](colorRGB)**: colorRGB Icons
   * **[Normal](colorRGB/normal)**: 
     * **[PDF](colorRGB/normal/PDF)**: Normal icons in PDF format
     * **[SVG](colorRGB/normal/SVG)**: Normal icons in SVG format
-    * **[PNG](colorRGB/normal/PDF)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
+    * **[PNG](colorRGB/normal/PNG)**: Normal icons in PNG format in two sizes: 128 and 1024 pixels wide
   * **[Round](colorRGB/round)**: 
     * **[PDF](colorRGB/round/PDF)**: Round icons in PDF format
     * **[SVG](colorRGB/round/SVG)**: Round icons in SVG format
@@ -82,6 +52,5 @@ Within the folders below you can choose the icons that suite your needs.
     * **[PDF](Black/round/PDF)**: Round icons in PDF format
     * **[SVG](Black/round/SVG)**: Round icons in SVG format
     * **[PNG](Black/round/PNG)**: Round icons in PNG format in two sizes: 128 and 1024 pixels wide
->>>>>>> c0646ca... fixed PNG folders
 
 
