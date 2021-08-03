@@ -59,7 +59,7 @@ Within the folders below you can choose the icons that suite your needs.
 
 The following list shows all variations of the supported icons. 
 
-  Object         |     Black   | Black, circle | RGB | RGB, circle | White | White, circle
+  Object         |     RGB   | RGB, circle | Black | Black, circle | White | White, circle
   :------------- | :--------------: | :-----------: | :--------------: | :-----------: | :--------------: | :-----------: 
 Attack Pattern | ![Attack_Pattern](./colorRGB/normal/PNG/128w/Attack_Pattern.png) | ![Attack_Pattern](./colorRGB/round/PNG/128w/Attack_Pattern_round.png) | ![Attack_Pattern](./Black/normal/PNG/128w/Attack_Pattern.png) | ![Attack_Pattern](./Black/round/PNG/128w/Attack_Pattern_round.png) | ![Attack_Pattern](./White/normal/PNG/128w/Attack_Pattern.png) | ![Attack_Pattern](./White/round/PNG/128w/Attack_Pattern_round.png)
 Campaign | ![Campaign](./colorRGB/normal/PNG/128w/Campaign.png) | ![Campaign](./colorRGB/round/PNG/128w/Campaign_round.png) | ![Campaign](./Black/normal/PNG/128w/Campaign.png) | ![Campaign](./Black/round/PNG/128w/Campaign_round.png) | ![Campaign](./White/normal/PNG/128w/Campaign.png) | ![Campaign](./White/round/PNG/128w/Campaign_round.png)
