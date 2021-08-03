@@ -33,6 +33,6 @@ echo '
 
 The following list shows all variations of the supported icons. 
 
-  Object         |     Black   | Black, circle | RGB | RGB, circle | White | White, circle
+  Object         |     RGB   | RGB, circle | Black | Black, circle | White | White, circle
   :------------- | :--------------: | :-----------: | :--------------: | :-----------: | :--------------: | :-----------: ' >> README.md
 echo "${md_rows}" >> README.md
