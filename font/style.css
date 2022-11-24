@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'stix-icons';
-  src:  url('fonts/stix-icons.eot?co5ppm');
-  src:  url('fonts/stix-icons.eot?co5ppm#iefix') format('embedded-opentype'),
-    url('fonts/stix-icons.ttf?co5ppm') format('truetype'),
-    url('fonts/stix-icons.woff?co5ppm') format('woff'),
-    url('fonts/stix-icons.svg?co5ppm#stix-icons') format('svg');
+  font-family: 'stix-21-icons';
+  src:  url('fonts/stix-21-icons.eot?26in7p');
+  src:  url('fonts/stix-21-icons.eot?26in7p#iefix') format('embedded-opentype'),
+    url('fonts/stix-21-icons.ttf?26in7p') format('truetype'),
+    url('fonts/stix-21-icons.woff?26in7p') format('woff'),
+    url('fonts/stix-21-icons.svg?26in7p#stix-21-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-.stix {
+[class^="stix21-"], [class*=" stix21-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'stix-icons' !important;
+  font-family: 'stix-21-icons' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,574 +25,69 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.stix-Vulnerability_black_o:before {
+.stix21-Attack_Pattern:before {
   content: "\e900";
 }
-.stix-Tool_black_o:before {
+.stix21-Campaign:before {
   content: "\e901";
 }
-.stix-Threat_Actor_black_o:before {
+.stix21-Course_of_Action:before {
   content: "\e902";
 }
-.stix-Sighting_black_o:before {
+.stix21-Grouping:before {
   content: "\e903";
 }
-.stix-Report_black_o:before {
+.stix21-Identity:before {
   content: "\e904";
 }
-.stix-Relationship_black_o:before {
+.stix21-Incident:before {
   content: "\e905";
 }
-.stix-Opinion_black_o:before {
+.stix21-Indicator:before {
   content: "\e906";
 }
-.stix-Observed_Data_black_o:before {
+.stix21-Infrastructure:before {
   content: "\e907";
 }
-.stix-Note_black_o:before {
+.stix21-Intrusion_Set:before {
   content: "\e908";
 }
-.stix-Malware_black_o:before {
+.stix21-Location:before {
   content: "\e909";
 }
-.stix-Malware_Analysis_black_o:before {
+.stix21-Malware_Analysis:before {
   content: "\e90a";
 }
-.stix-Location_black_o:before {
+.stix21-Malware_Family:before {
   content: "\e90b";
 }
-.stix-Intrusion_Set_black_o:before {
+.stix21-Malware:before {
   content: "\e90c";
 }
-.stix-Infrastructure_black_o:before {
+.stix21-Note:before {
   content: "\e90d";
 }
-.stix-Indicator_black_o:before {
+.stix21-Observed_Data:before {
   content: "\e90e";
 }
-.stix-Incident_black_o:before {
+.stix21-Opinion:before {
   content: "\e90f";
 }
-.stix-Identity_black_o:before {
+.stix21-Relationship:before {
   content: "\e910";
 }
-.stix-Grouping_black_o:before {
+.stix21-Report:before {
   content: "\e911";
 }
-.stix-Course_of_Action_black_o:before {
+.stix21-Sighting:before {
   content: "\e912";
 }
-.stix-Campaign_black_o:before {
+.stix21-Threat_Actor:before {
   content: "\e913";
 }
-.stix-Attack_Pattern_black_o:before {
+.stix21-Tool:before {
   content: "\e914";
 }
-.stix-Vulnerability_white_o:before {
+.stix21-Vulnerability:before {
   content: "\e915";
-  color: #fff;
-}
-.stix-Tool_white_o:before {
-  content: "\e916";
-  color: #fff;
-}
-.stix-Threat_Actor_white_o:before {
-  content: "\e917";
-  color: #fff;
-}
-.stix-Sighting_white_o:before {
-  content: "\e918";
-  color: #fff;
-}
-.stix-Report_white_o:before {
-  content: "\e919";
-  color: #fff;
-}
-.stix-Relationship_white_o:before {
-  content: "\e91a";
-  color: #fff;
-}
-.stix-Opinion_white_o:before {
-  content: "\e91b";
-  color: #fff;
-}
-.stix-Observed_Data_white_o:before {
-  content: "\e91c";
-  color: #fff;
-}
-.stix-Note_white_o:before {
-  content: "\e91d";
-  color: #fff;
-}
-.stix-Malware_white_o:before {
-  content: "\e91e";
-  color: #fff;
-}
-.stix-Malware_Analysis_white_o:before {
-  content: "\e91f";
-  color: #fff;
-}
-.stix-Location_white_o:before {
-  content: "\e920";
-  color: #fff;
-}
-.stix-Intrusion_Set_white_o:before {
-  content: "\e921";
-  color: #fff;
-}
-.stix-Infrastructure_white_o:before {
-  content: "\e922";
-  color: #fff;
-}
-.stix-Indicator_white_o:before {
-  content: "\e923";
-  color: #fff;
-}
-.stix-Incident_white_o:before {
-  content: "\e924";
-  color: #fff;
-}
-.stix-Identity_white_o:before {
-  content: "\e925";
-  color: #fff;
-}
-.stix-Grouping_white_o:before {
-  content: "\e926";
-  color: #fff;
-}
-.stix-Course_of_Action_white_o:before {
-  content: "\e927";
-  color: #fff;
-}
-.stix-Campaign_white_o:before {
-  content: "\e928";
-  color: #fff;
-}
-.stix-Attack_Pattern_white_o:before {
-  content: "\e929";
-  color: #fff;
-}
-.stix-Vulnerability_black:before {
-  content: "\e92a";
-}
-.stix-Tool_black:before {
-  content: "\e92b";
-}
-.stix-Threat_Actor_black:before {
-  content: "\e92c";
-}
-.stix-Sighting_black:before {
-  content: "\e92d";
-}
-.stix-Report_black:before {
-  content: "\e92e";
-}
-.stix-Relationship_black:before {
-  content: "\e92f";
-}
-.stix-Opinion_black:before {
-  content: "\e930";
-}
-.stix-Observed_Data_black:before {
-  content: "\e931";
-}
-.stix-Note_black:before {
-  content: "\e932";
-}
-.stix-Malware_Analysis_black:before {
-  content: "\e933";
-}
-.stix-Malware_black:before {
-  content: "\e934";
-}
-.stix-Location_black:before {
-  content: "\e935";
-}
-.stix-Intrusion_Set_black:before {
-  content: "\e936";
-}
-.stix-Infrastructure_black:before {
-  content: "\e937";
-}
-.stix-Indicator_black:before {
-  content: "\e938";
-}
-.stix-Incident_black:before {
-  content: "\e939";
-}
-.stix-Identity_black:before {
-  content: "\e93a";
-}
-.stix-Grouping_black:before {
-  content: "\e93b";
-}
-.stix-Course_of_Action_black:before {
-  content: "\e93c";
-}
-.stix-Campaign_black:before {
-  content: "\e93d";
-}
-.stix-Attack_Pattern_black:before {
-  content: "\e93e";
-}
-.stix-Vulnerability_white:before {
-  content: "\e93f";
-  color: #fff;
-}
-.stix-Tool_white:before {
-  content: "\e940";
-  color: #fff;
-}
-.stix-Threat_Actor_white:before {
-  content: "\e941";
-  color: #fff;
-}
-.stix-Sighting_white:before {
-  content: "\e942";
-  color: #fff;
-}
-.stix-Report_white:before {
-  content: "\e943";
-  color: #fff;
-}
-.stix-Relationship_white:before {
-  content: "\e944";
-  color: #fff;
-}
-.stix-Opinion_white:before {
-  content: "\e945";
-  color: #fff;
-}
-.stix-Observed_Data_white:before {
-  content: "\e946";
-  color: #fff;
-}
-.stix-Note_white:before {
-  content: "\e947";
-  color: #fff;
-}
-.stix-Malware_Analysis_white:before {
-  content: "\e948";
-  color: #fff;
-}
-.stix-Malware_white:before {
-  content: "\e949";
-  color: #fff;
-}
-.stix-Location_white:before {
-  content: "\e94a";
-  color: #fff;
-}
-.stix-Intrusion_Set_white:before {
-  content: "\e94b";
-  color: #fff;
-}
-.stix-Infrastructure_white:before {
-  content: "\e94c";
-  color: #fff;
-}
-.stix-Indicator_white:before {
-  content: "\e94d";
-  color: #fff;
-}
-.stix-Incident_1_white:before {
-  content: "\e94e";
-  color: #fff;
-}
-.stix-Identity_white:before {
-  content: "\e94f";
-  color: #fff;
-}
-.stix-Grouping_white:before {
-  content: "\e950";
-  color: #fff;
-}
-.stix-Course_of_Action_white:before {
-  content: "\e951";
-  color: #fff;
-}
-.stix-Campaign_white:before {
-  content: "\e952";
-  color: #fff;
-}
-.stix-Attack_Pattern_white:before {
-  content: "\e953";
-  color: #fff;
-}
-.stix-Vulnerability_o .path1:before {
-  content: "\e954";
-  color: rgb(255, 209, 0);
-}
-.stix-Vulnerability_o .path2:before {
-  content: "\e955";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Tool_o .path1:before {
-  content: "\e956";
-  color: rgb(87, 80, 157);
-}
-.stix-Tool_o .path2:before {
-  content: "\e957";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Threat_Actor_o .path1:before {
-  content: "\e958";
-  color: rgb(230, 27, 92);
-}
-.stix-Threat_Actor_o .path2:before {
-  content: "\e959";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Sighting_o .path1:before {
-  content: "\e95a";
-  color: rgb(235, 94, 42);
-}
-.stix-Sighting_o .path2:before {
-  content: "\e95b";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Report_o .path1:before {
-  content: "\e95c";
-  color: rgb(118, 146, 121);
-}
-.stix-Report_o .path2:before {
-  content: "\e95d";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Relationship_o .path1:before {
-  content: "\e95e";
-  color: rgb(205, 214, 216);
-}
-.stix-Relationship_o .path2:before {
-  content: "\e95f";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Opinion_o .path1:before {
-  content: "\e960";
-  color: rgb(80, 86, 87);
-}
-.stix-Opinion_o .path2:before {
-  content: "\e961";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Observed_Data_o .path1:before {
-  content: "\e962";
-  color: rgb(0, 0, 0);
-}
-.stix-Observed_Data_o .path2:before {
-  content: "\e963";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Note_o .path1:before {
-  content: "\e964";
-  color: rgb(80, 86, 87);
-}
-.stix-Note_o .path2:before {
-  content: "\e965";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Malware_o .path1:before {
-  content: "\e966";
-  color: rgb(211, 163, 203);
-}
-.stix-Malware_o .path2:before {
-  content: "\e967";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Malware_Analysis_o .path1:before {
-  content: "\e968";
-  color: rgb(231, 118, 172);
-}
-.stix-Malware_Analysis_o .path2:before {
-  content: "\e969";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Location_o .path1:before {
-  content: "\e96a";
-  color: rgb(80, 86, 87);
-}
-.stix-Location_o .path2:before {
-  content: "\e96b";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Intrusion_Set_o .path1:before {
-  content: "\e96c";
-  color: rgb(57, 178, 193);
-}
-.stix-Intrusion_Set_o .path2:before {
-  content: "\e96d";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Infrastructure_o .path1:before {
-  content: "\e96e";
-  color: rgb(174, 215, 192);
-}
-.stix-Infrastructure_o .path2:before {
-  content: "\e96f";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Indicator_o .path1:before {
-  content: "\e970";
-  color: rgb(243, 146, 26);
-}
-.stix-Indicator_o .path2:before {
-  content: "\e971";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Incident_o .path1:before {
-  content: "\e972";
-  color: rgb(252, 182, 23);
-}
-.stix-Incident_o .path2:before {
-  content: "\e973";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Incident_o .path3:before {
-  content: "\e974";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Identity_o .path1:before {
-  content: "\e975";
-  color: rgb(146, 150, 151);
-}
-.stix-Identity_o .path2:before {
-  content: "\e976";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Grouping_o .path1:before {
-  content: "\e977";
-  color: rgb(163, 53, 139);
-}
-.stix-Grouping_o .path2:before {
-  content: "\e978";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Course_of_Action_o .path1:before {
-  content: "\e979";
-  color: rgb(161, 198, 40);
-}
-.stix-Course_of_Action_o .path2:before {
-  content: "\e97a";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Campaign_o .path1:before {
-  content: "\e97b";
-  color: rgb(80, 182, 130);
-}
-.stix-Campaign_o .path2:before {
-  content: "\e97c";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-Attack_Pattern_o .path1:before {
-  content: "\e97d";
-  color: rgb(34, 119, 181);
-}
-.stix-Attack_Pattern_o .path2:before {
-  content: "\e97e";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.stix-incident:before {
-  content: "\e97f";
-  color: #fcb617;
-}
-.stix-Vulnerability:before {
-  content: "\e980";
-  color: #ffd100;
-}
-.stix-Tool:before {
-  content: "\e981";
-  color: #57509d;
-}
-.stix-Threat_Actor:before {
-  content: "\e982";
-  color: #e61b5c;
-}
-.stix-Sighting:before {
-  content: "\e983";
-  color: #eb5e2a;
-}
-.stix-Report:before {
-  content: "\e984";
-  color: #769279;
-}
-.stix-Relationship:before {
-  content: "\e985";
-  color: #cdd6d8;
-}
-.stix-Opinion:before {
-  content: "\e986";
-  color: #505657;
-}
-.stix-Observed_Data:before {
-  content: "\e987";
-}
-.stix-Note:before {
-  content: "\e988";
-  color: #505657;
-}
-.stix-Malware_Analysis:before {
-  content: "\e989";
-  color: #e776ac;
-}
-.stix-Malware:before {
-  content: "\e98a";
-  color: #d3a3cb;
-}
-.stix-Location:before {
-  content: "\e98b";
-  color: #505657;
-}
-.stix-Intrusion_Set:before {
-  content: "\e98c";
-  color: #39b2c1;
-}
-.stix-Infrastructure:before {
-  content: "\e98d";
-  color: #aed7c0;
-}
-.stix-Indicator:before {
-  content: "\e98e";
-  color: #f3921a;
-}
-.stix-Identity:before {
-  content: "\e98f";
-  color: #929697;
-}
-.stix-Grouping:before {
-  content: "\e990";
-  color: #a3358b;
-}
-.stix-Course_of_Action:before {
-  content: "\e991";
-  color: #a1c628;
-}
-.stix-Campaign:before {
-  content: "\e992";
-  color: #50b682;
-}
-.stix-Attack_Pattern:before {
-  content: "\e993";
-  color: #2277b5;
 }
